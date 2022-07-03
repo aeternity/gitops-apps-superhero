@@ -1,0 +1,9 @@
+app:
+  image:
+    tag: "v1.8.0"
+  ingress:
+    enabled: "true"
+    hosts:
+      - host: "dex.dev.superk8s.de" # has to be changed/disscused
+        paths:
+          - path: "/"

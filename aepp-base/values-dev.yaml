@@ -1,0 +1,9 @@
+app:
+  image:
+    tag: "master"
+  ingress:
+    enabled: true
+    hosts:
+      - host: "base.dev.superk8s.de" # has to be changed/disscused
+        paths:
+          - path: "/"

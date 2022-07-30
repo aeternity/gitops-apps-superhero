@@ -1,0 +1,11 @@
+app:
+  nameOverride: superhero-wallet
+  image:
+    repository: aeternity/superhero-wallet
+    tag: "latest"
+  ingress:
+    enabled: true
+    hosts:
+      - host: "superhero-wallet.dev.superk8s.de"
+        paths:
+          - path: "/"

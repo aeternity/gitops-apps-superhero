@@ -1,0 +1,41 @@
+app:
+  encValues:
+    POSTGRES_PASSWORD: ""
+    AUTHENTICATION_PASSWORD: "AgCtb7epkNMoJi4moyl4HSwkI4VV148UV/tHSXXvSr5ZNwP9c20ULA4aThUnEvvxr7VFgevCNM7TWc9M3tg6Zv8SiWxGpoNJwzKdkFjEgJiuRsZNu/XKW7WAqqfFwqcAIfm0faGFJtXrdsrFszyGUEBfCgcfMU+UvqohSkKNGz9OFss/ctXHdk95Qxvix36WIRFUJ34PJehWhJjjKBcmv8d+5oPlPg3BfeNbmKdZWmA1+VexSvHLRSCSLSESqANO8YxN8HDn2rj0Iuw4z8R6pUtYIGsRa6HXxQTTXm1YTkOuzpojUjvgFTAiYmh+dHjVFs4ooxLmkL079M2HGXFjBxSgEl2xoVS8Ts69Eemi4ynVa6xGl5A4PsoGi+6bAf3zM4nksOs9d+0ESyxO6gsfF9KB3cONY9KFNCZHwgUBBNMixXUZQZS6GlxeULmTy8u58BkM9cPqfxqIO0OMLOdOapiWWbEQua7TCaC2vO4dzcjwT2Y83p63nFQoPCGXPH7/t2dIhdnrCBnnpJ3FpYyg3AsrNgeAKyIMPku36lun0rz9cyyYQQkI/cQ8JJacZev1qVZhYP8Tuzye2Wk2TYI1NDR/Q9dpbdJZMKLCI5mjE5GBCo4yrLnts9omG7e5tXi7wpidQs1vc2U15PnDPxGhmgYWUUySEnxfy+8Iq0Qg3mo+7/CvsHNXcdTUFliaoC7efkd0KGdnBGiBWRP873p11JBTnU0="
+    PRIVATE_KEY: "AgAhCQr5t3fH/cwH4Tx5LBhBh2is+WxqLSLFvrsICVxULkBotGWIeLRL2mLtz+xBLNH5lTbaumYWaAaiM4i1bPdoDYstTxWxj5FMkR5BiA+xMQG70TAz+8rsxuh8qPFPzhC97lNZE+qfR25ACSR27zsSvOoBxS4B5M32eFNvT8f8RH00uHuXoD/wMk5jZZo9/Ua/zE4i9gOhhW5H3cWM4VVWN+5+n35VyUiE/hHW0KNYQEDRsCKV1jEiYkJZdLupGPzVcv3uxoOeuG76SJMpBz9Gizr/I0NZrYeD8cALVQuVaY/2mZ2D+bOBNkHUvSFyCHRi3KPisgAduryTBBg7qRDqN5Feu9O2vbrsG3jtqGCs09yjCkmkygISsf49fl9uTqztm8Tb6AldDiK+DSexHyIWTYYJJ4jGcVDdzDc6qphNEd1Hl9cY8ewbFEhWdTJ7Xdkv8Tq5zgO5/n5di/nFK9YoZ/33Q/rLcLNWJY99MTDNjy/hvwyjf+dFbffEZcbmdKRUQBeqtWZN/4P6JtFfeIlJ0CN5Vd02kIHPincsfcSHDEmMJ5JQbCeCG1f1Zdavrp/kdMYX4tBwp3NB6U6gEO2I/9uR9uSUZZnl4dxLYGu4G6Sjy16Uqpe4N3acj62w3hfY2h3HUAqeO6yExy8QFVtdswYz7KF/Hm9eKx1BA2Bbx+QxFqzEcxa3WiztWHF3Ff3wq7l1WKMwLvsGRpystbxYrxz3aPaOeldATygYc+mQRsFuAyl2qSc9CjYNFx13CqkSWiMO4SKQfBYvSyvLI5wQLfP0It7humTuAR1LjVgzCKEYOQUhG+8bPLfrK+PzeR6rDHcpk1m4RJLUJfAmeXB5KEYRjhLlqMn9Cc7rOZUy3A=="
+  env:
+    "REDIS_HOST": "10.0.2.6"
+    "REDIS_PORT": "6379"
+    "NODE_URL": "https://mainnet.aeternity.io"
+    "COMPILER_URL": "https://latest.compiler.aepps.com"
+    "CONTRACT_V1_ADDRESS": "ct_2AfnEfCSZCTEkxL5Yoi4Yfq6fF7YapHRaFKDJK3THMXMBspp5z"
+    "CONTRACT_V3_ADDRESS": "ct_2Hyt9ZxzXra5NAzhePkRsDPDWppoatVD7CtHnUoHVbuehwR8Nb"
+    "TOKEN_REGISTRY_ADDRESS": "ct_2n76BQCN3zNEjuEvHFNZtgyWPc5zizy47wNrUT3RHP2MrPKhbq"
+    "ORACLE_CONTRACT_ADDRESS": "ct_7wqP18AHzyoqymwGaqQp8G2UpzBCggYiq7CZdJiB71VUsLpR4"
+    "MIDDLEWARE_URL": "https://mainnet.aeternity.io/mdw"
+    "IPFS_URL": "http://ipfs.dev.superk8s.de:5001"
+    "PUBLIC_KEY": "ak_yrVCHP97UWfCRGMCaojBjdSKuXD3yyC8NkzkReURd4t3jbCQW"
+    "AUTHENTICATION_USER": "user"
+    "NODE_ENV": "production"
+    "WEBSOCKET_URL": "wss://mainnet.aeternity.io/mdw/websocket"
+    "ORACLE_GETTER_ADDRESS": "ct_anbp2U5VUsF6PkrX1ER1hSqj76Krpvqy97c5JBLmubBecCWui"
+    "CONTRACT_V1_GETTER_ADDRESS": "ct_NR7Bd7j5LRdzvKZmrMagMkfxzG8ZPWseKQkdwWootpq4kAJY2"
+    "CONTRACT_V3_GETTER_ADDRESS": "ct_2NdZ6PX9tZHWFhgcoYjthYNFF15qxjDwFSsNXRPeajEWazxkTo"
+    "POSTGRES_USER": "postgres"
+    "POSTGRES_DB": "superhero"
+    "POSTGRES_HOST": "pg-superhero-backend.superk8s.de"
+  image:
+    tag: "latest"
+  probes:
+    liveness:
+      enabled: false
+    readiness:
+      enabled: false
+  service:
+    port: 3000  
+  ingress:
+    enabled: true
+    hosts:
+      - host: "superhero-backend.dev.superk8s.de"
+        paths:
+          - path: "/"

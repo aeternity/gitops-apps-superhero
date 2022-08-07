@@ -1,0 +1,17 @@
+app:
+  image:
+    tag: "latest"
+    repository: "aeternitybot/explorer-frontend"
+    pullPolicy: "Always"
+  ingress:
+    enabled: "true"
+    hosts:
+      - host: "explorer.prd.superk8s.de"
+        paths:
+          - path: "/"
+      - host: "master-explorer.prd.superk8s.de"
+        paths:
+          - path: "/"
+            version: "master"
+  versions:
+    - {version: master, gitSha: c5eb791}

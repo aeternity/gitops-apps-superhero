@@ -27,6 +27,7 @@ app:
     "POSTGRES_SSL": "false"
   image:
     tag: "psql"
+    pullPolicy: "Always"
   probes:
     liveness:
       enabled: false

@@ -24,7 +24,7 @@ app:
     "POSTGRES_USER": "superhero"
     "POSTGRES_DB": "superhero-backend"
     "POSTGRES_HOST": "pg-superhero-backend.dev.superk8s.de"
-    "POSTGRES_SSL": "false"
+    "POSTGRES_SSL": "true"
   image:
     tag: "psql"
   probes:

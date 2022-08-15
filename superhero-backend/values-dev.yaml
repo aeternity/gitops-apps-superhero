@@ -23,7 +23,7 @@ app:
     "CONTRACT_V3_GETTER_ADDRESS": "ct_2NdZ6PX9tZHWFhgcoYjthYNFF15qxjDwFSsNXRPeajEWazxkTo"
     "POSTGRES_USER": "superhero"
     "POSTGRES_DB": "superhero-backend"
-    "POSTGRES_HOST": "pg-superhero-backend.superk8s.de"
+    "POSTGRES_HOST": "pg-superhero-backend.dev.superk8s.de"
   image:
     tag: "latest"
   probes:

@@ -26,7 +26,7 @@ app:
     "POSTGRES_DB": "dex-backend-app"
     "POSTGRES_SCHEMA": "dex-backend-mainnet-app"
     "POSTGRES_PORT": "5432"
-    "POSTGRES_HOST": "pg-dex-backend.superk8s.de"
+    "POSTGRES_HOST": "pg-dex-backend.dev.superk8s.de"
     "POSTGRES_USERNAME": "dex-backend-app"
     "NETWORK_NAME": "mainnet"
     "ROUTER_ADDRESS": "ct_azbNZ1XrPjXfqBqbAh1ffLNTQ1sbnuUDFvJrXjYz7JQA1saQ3"

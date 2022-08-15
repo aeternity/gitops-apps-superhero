@@ -26,7 +26,7 @@ app:
     "POSTGRES_HOST": "pg-superhero-backend.dev.superk8s.de"
     "POSTGRES_SSL": "false"
   image:
-    tag: "latest"
+    tag: "psql"
   probes:
     liveness:
       enabled: false

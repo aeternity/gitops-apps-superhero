@@ -1,12 +1,12 @@
 app:
   image:
     repository: aeternity/aepp-grafitti
-    tag: "dev"
+    tag: "stg"
   service:
     port: 80
   ingress:
     enabled: true
     hosts:
-      - host: "aepp-grafitti.dev.superk8s.de"
+      - host: "aepp-grafitti.stg.superk8s.de"
         paths:
           - path: "/"

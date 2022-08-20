@@ -21,7 +21,7 @@ app:
     enabled: true
     stripPrefix: "/v[0-9]+"
     hosts:
-      - host: "compiler.dev.superk8s.de"
+      - host: "compiler.stg.superk8s.de"
         paths:
           - path: /v4
             version: "v4.3.0"

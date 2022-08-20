@@ -7,7 +7,7 @@ app:
   ingress:
     enabled: true
     hosts:
-      - host: "repl.dev.superk8s.de"
+      - host: "repl.stg.superk8s.de"
         paths:
           - path: "/"
 

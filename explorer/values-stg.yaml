@@ -6,12 +6,10 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "explorer.dev.superk8s.de"
+      - host: "explorer.stg.superk8s.de"
         paths:
           - path: "/"
-      - host: "master-explorer.dev.superk8s.de"
+      - host: "master-explorer.stg.superk8s.de"
         paths:
           - path: "/"
             version: "master"
-  versions:
-    - {version: master, gitSha: c5eb791}

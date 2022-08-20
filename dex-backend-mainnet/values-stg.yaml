@@ -4,13 +4,13 @@ app:
     tag: "v1.0.0"
     pullPolicy: "Always"
   encValues:
-    POSTGRES_PASSWORD: "AgAoekXoCRLsYEre4t7kdW43aixQ1pjlLKoWxMU8EktrhKNT65RTpusDRurrMmK48Dgez9OVGZNv8gBpMMOtcnbAhSGei/2s3YDVsUiX0jRTpDyo5VsK7dNlKMJU6bULO+eurMD85XZoi0Q88z75MlJ/3fDaOQT3E1/1b2Z9EnCpkqhE9vJHaIpE12iIMHWiYjUlIXO5lIjBhJFtzoO19CpbSo71YzxLSpAX3wjNTcFQDoepC6lgCrTzUDx/7QxegA1BIdJOoVSoG8HULFpofsva3Oo+hj1z2PSdRLAdqCHamikJ7J9UroXsBmLtpD6wMwPtGBfPvGiC4H7RhdL5PcHLhcPHA4QJf6nrWWh8uiFLTmbqTvl7phOxOhYHZGa5ZMmsSrIkHlsk2i14keBYrZGmJkRQ1WSc9sojug09Cv6LBYI1s88c4q034LZpPR8PT4EC+NACcujXlnA81O06iDaVFNlPYukL6PJETbYGIXza4PkZxIvCXwgKlPZORL5Xg7sT9xZT26nJ5k12n2IXpijS77VuJB+SO4qtD6rvldYtBZhgG8Rd19LEykIkX92gIKg84h0GEKKCF+66PtOCc2xriT2OJSPzy3jYWjJIdcPeQSP9FACDOGV+bgAnCbemGhE9ARtWl/z/uJZVt1FpXWkFY/pQtIaob6msUiv8IJ1rdbf8QResja2BgSSutZZFN5N7yYOvg1jxBEVNNQI="
+    POSTGRES_PASSWORD: "AgBdkqBgDpi7lVwaki1ye5m0HK0U3Qg2T9b6OSLCt4TJ0Z+a3XN39VfShhJtGcTlAYCLkKOlUb1yCgryuIVUDxM637dx4UYC8K44smHsGBdVOUrWqdZliyek4R+wv0wCzyWb7t/ZMpf4ffKvD+IKwaRN0Fm5xF3XhjbeFijkQlsfX/YmXbaQ/LVF2h3L/IM0TuJZ04AxuMXoz62mVMbZeykWjMP0lZ7gaIto5vjKKU4s/yh0G82TBpD6MizdCplmVAGy3mo/vXAny2qCh3QO/nz28CWltXpUtdacrQBP44xcXpeP0ARkFR4mOKgZzH0u9AYQGOqGV7i+C1zh9WX/c+I1hVH3JqayX4LlfsJyC/Xfs0qBXQbdPWk/WOGLuBvE48NEzcVuK6/+XReviQRH/GSv90ybN/ZUMkHHL1eOh/FSasEDabkAv+iK5nKoIqYxJ3LbjyanL9g2dGkRMZ4fd9eRJ0SUdOWa+7fR9fyJ7QNgSBdmRi5urfHVU++YBLjo7wWi73tmyzhfeXQ5UM81Nd8g7AfzMhf0Zzfg+uYcbEIun+X94jpWyf22KuOdeZ9Ocr3qzVVMyDkbjaSMBnIWy9nUE0jQ38q7UygYziAE3wWaJrDLky69N9KfpEhr8KNspppboqUGEUk/44xvV/BhjsXwbi/6JkBapoTa+0ZTRdqinTaYZk8M4wDIC0LYktX1fKDG8gRwJ36SQXx5Bjk="
   service:
     port: 3000
   ingress:
     enabled: "true"
     hosts:
-      - host: "dex-backend-mainnet.dev.superk8s.de"
+      - host: "dex-backend-mainnet.stg.superk8s.de"
         paths:
           - path: "/"
   init: 
@@ -26,7 +26,7 @@ app:
     "POSTGRES_DB": "dex-backend-app"
     "POSTGRES_SCHEMA": "dex-backend-mainnet-app"
     "POSTGRES_PORT": "5432"
-    "POSTGRES_HOST": "pg-dex-backend.dev.superk8s.de"
+    "POSTGRES_HOST": "pg-dex-backend.stg.superk8s.de"
     "POSTGRES_USERNAME": "dex-backend-app"
     "NETWORK_NAME": "mainnet"
     "ROUTER_ADDRESS": "ct_azbNZ1XrPjXfqBqbAh1ffLNTQ1sbnuUDFvJrXjYz7JQA1saQ3"

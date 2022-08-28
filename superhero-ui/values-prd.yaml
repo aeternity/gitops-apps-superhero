@@ -6,6 +6,6 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "superhero.stg.superk8s.de"
+      - host: "superhero.prd.superk8s.de"
         paths:
           - path: "/"

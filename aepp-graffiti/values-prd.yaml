@@ -1,7 +1,6 @@
 app:
   image:
     repository: aeternity/aepp-grafitti
-    tag: "prd"
   service:
     port: 80
   ingress:

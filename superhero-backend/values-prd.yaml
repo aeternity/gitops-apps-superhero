@@ -22,7 +22,7 @@ app:
     "CONTRACT_V1_GETTER_ADDRESS": "ct_NR7Bd7j5LRdzvKZmrMagMkfxzG8ZPWseKQkdwWootpq4kAJY2"
     "CONTRACT_V3_GETTER_ADDRESS": "ct_2NdZ6PX9tZHWFhgcoYjthYNFF15qxjDwFSsNXRPeajEWazxkTo"
     "POSTGRES_USER": "superhero"
-    "POSTGRES_DB": "superhero-backend"
+    "POSTGRES_DB": "superhero_backend"
     "POSTGRES_HOST": "pg-superhero-backend.prd.superk8s.de"
     "POSTGRES_SSL": "false"
   image:

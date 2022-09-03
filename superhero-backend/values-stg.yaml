@@ -1,0 +1,43 @@
+app:
+  encValues:
+    POSTGRES_PASSWORD: "AgDJrNs+AMZPG13xup2aVn7O+FWFEkocAhoPh291ZTQJaC6+StI9tydyz14MDcvEqIJtri5eNChcOWdlb4ux2jcqFayt37fmAa6SrPBQ2jDLPVzJ4VFDUh8UAg2Zg6qUBssujQL18roQO7SDnyWUi5Y/lOgiZKkKTcaS9FOqDXuCGOA5XU+l93IOsPT2+5qBGTjqVfnEFtBO7T0tpxbHsIFQM7lRRYiHfSQy0EvV0KCnrfwIP55CreF4iJcR1aew+ygh+6QrIHXU4virHkNUX/2IX47eEqjYW9dsP4Iwu7e5pWLab/4Gzq2M200tzaXHWaTWt4H7ro7+rQfLIH8UrKe1aEtqmH4NIHI4jM6eG0gZKMyEAOaHxxhGtTOxUyZV7H9GR98t9g1KmVF5soUpcrDVOPnqPIl4/bxX3q+BkTFvV+oDApBWpd5+urzh2JWHk8h9Fc4WGyhVPmyO6lIDxUsSlc4bcHGdIfE9smYJ3FK4w+tT09zqCisCuGUWIvB+9dufSx+M8Wxh8FkXnXM7bLZaY0YWX03dTx4zQy+nhoJngW0Wb3YtgEf9ee5FmJDo358skrNxI3Y8sSFpvVZ7/uTjO2AhhY0Za+U7Jnv7JIDZHXpJeckoT9kQH1TKVsdeRcpzVT2Za3E5/qrrzAp5+934ZpIox4Rcq4pkhfboEWF9f2wAp41bZBaUxy116TaB6gHJ1tIQxhlCa+Bu/0Y="
+    AUTHENTICATION_PASSWORD: "AgAbcrN/pYh+pgurCztnMvnWJWaT0VFNVCHyiAs4wYVKrW5TmWgEswgoVGltHNZBhg6ek7bKmBMKCO4islPMUkltxYYr/bxSLUYsUVCXz12qxMgcdLZ7Z+vUaAgXV7vqK+AtXZBlUuvvgI0CJJUzk96VeZCB5xHXMsf54PEXKy9ozDj4ib1DPT36GjSFRSk5fTKbHHHCtTICDYUjBi/I0X95nGj87PpYiYqZLrJ3bHrZ5jLya9fMSCPvGX3FFkbjlz1qmvMmoUoHw6RdeW4T9Jh7H2Yli7ZT04WH0p8tvQ6R/HDCISLbAZIA+HGx8tJSqxwmLFnVL6E91DAHtDWqzvvfH6GCr5qt7cekr0jZrHYzS8xcSxX5qmhz0mTFGqFxmgwa5xEtgW1GdhnhuJ/ySQ7OR26Nw4VFd3mV3OZZItDtUoc95K8SazogKoBYlI2pE1XN/MHSarw8LJ9jiFqVfLU5ZiEBVoZVvjn0SbpnLMXM1/gt9G1hY+oopxCPXSyquRWbcEP0G2WtYEk1f6RzbQaR/JGj9WRsTdeydPRkFRq1uat02a/DP8F/im+WBT8gZRzwLiEeBZMl/6xcd8b/0nrc+cpNw9gGXAIlft8pxxu+ak4kkZbbN6J0q0DgmseMK0YnlDcykRNnuihI/sk+eGs7KDtT9wks+e+fUkna0Kgz7kCIUYP3oDdMncUgqhtyoDaHJhx1F+y37KVX59MQIHtXYuc="
+    PRIVATE_KEY: "AgBB6AX7mmv9bDk2sRS3y4O/1E6Fbfws7lrtF4Yz3+kYmKlzgUw9CNn5qd/9u/dwD2W+XX2VBuh94ZqzICAy17eyDOKpeIdsZGaVih/BBCZ1yXdBjQL2NKUB2aEIsb5ON3XRiZwllm9Mk22Pcz45DjC2C2lHUZaLNv0zpyZeqiEkymciZAZuy3hvxUPctQJgTzKD+QmgV7vD4CF7p/+76KXU+iPPlb4c2/SGyzl0aGcTJ2E3RcTp5A1pk3xrRnRiRRWm1ST5FkYh/8jeB6uEB38X/94v3jVeXzHZHKQlMbK3dgaywRrcM3IL+juHyVYpLee/dyO03T2wTazSTHe36hwaPnKSvwT/jeLCqh901ZhEU7KAyKudxg4cvku4J5f0PwWizIVoYvvTNdLeUURFL+9yL0K8M3tIeXkgatMPI8a0pji7yQ0XAZqYqqELDKR+/XLH7i5YhvWwJs8r/tNaLR9CxkLOfUY1tMbZrlp6BiKx0+P3KZBcCFoACH6/s5IbzIugMYsq2dMWXPEsK7f7SRIEmvS7krc8NgoS9S2UOP7OX78JtAINpsZ9/xC/ra8EQzLgIqqKYvPJ/5dxNhQXO4b7CT672w9i/I4OxGfrY2O/jED8YojrSFWzmNZawxbHLuoHae+znmsev87WY2z2UMh/6IAIalamuHgADd2Smcz8R8V8Bbsin4kv69jG4j8ASxCGBMPbCHz2ig476rJoQwgwOld6ccbRwHMW+vkW3621ArOqtbTK4SUC8EAM+QLKsZyB7Qrxn6Zy4E/akBVqbuNC4nxldp8MfT8sTlOuSSGIsnKbCb8WPRwMflWavNZfeV48QfH2t/YsCbcI0HYbYYcgFq2GLqE2JEpQUzTjTjVbXQ=="
+  env:
+    "REDIS_HOST": "192.168.2.4"
+    "REDIS_PORT": "6379"
+    "NODE_URL": "https://mainnet.aeternity.io"
+    "COMPILER_URL": "https://latest.compiler.aepps.com"
+    "CONTRACT_V1_ADDRESS": "ct_2AfnEfCSZCTEkxL5Yoi4Yfq6fF7YapHRaFKDJK3THMXMBspp5z"
+    "CONTRACT_V3_ADDRESS": "ct_2Hyt9ZxzXra5NAzhePkRsDPDWppoatVD7CtHnUoHVbuehwR8Nb"
+    "TOKEN_REGISTRY_ADDRESS": "ct_2n76BQCN3zNEjuEvHFNZtgyWPc5zizy47wNrUT3RHP2MrPKhbq"
+    "ORACLE_CONTRACT_ADDRESS": "ct_7wqP18AHzyoqymwGaqQp8G2UpzBCggYiq7CZdJiB71VUsLpR4"
+    "MIDDLEWARE_URL": "https://mainnet.aeternity.io/mdw"
+    "IPFS_URL": "http://ipfs.stg.superk8s.de:5001"
+    "PUBLIC_KEY": "ak_HryHrgaVUSxezLQBfNENhptKeXk6tpg4kjWBk88nsU5RJvhNk"
+    "AUTHENTICATION_USER": "admin"
+    "NODE_ENV": "production"
+    "WEBSOCKET_URL": "wss://mainnet.aeternity.io/mdw/websocket"
+    "ORACLE_GETTER_ADDRESS": "ct_anbp2U5VUsF6PkrX1ER1hSqj76Krpvqy97c5JBLmubBecCWui"
+    "CONTRACT_V1_GETTER_ADDRESS": "ct_NR7Bd7j5LRdzvKZmrMagMkfxzG8ZPWseKQkdwWootpq4kAJY2"
+    "CONTRACT_V3_GETTER_ADDRESS": "ct_2NdZ6PX9tZHWFhgcoYjthYNFF15qxjDwFSsNXRPeajEWazxkTo"
+    "POSTGRES_USER": "superhero"
+    "POSTGRES_DB": "superhero_backend"
+    "POSTGRES_HOST": "pg-superhero-backend.stg.superk8s.de"
+    "POSTGRES_SSL": "false"
+  image:
+    tag: "psql"
+    pullPolicy: "Always"
+  probes:
+    liveness:
+      enabled: false
+    readiness:
+      enabled: false
+  service:
+    port: 3000  
+  ingress:
+    enabled: true
+    hosts:
+      - host: "superhero-backend.stg.superk8s.de"
+        paths:
+          - path: "/"

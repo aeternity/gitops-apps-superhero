@@ -9,9 +9,4 @@ app:
       - host: "test-repo.stg.aepps.com"
         paths:
           - path: "/"
-      - host: "pr-61-test-repo.stg.aepps.com"
-        paths:
-          - path: "/"
-            version: "pr-61"
-  versions:
-    - version: "pr-61"
+  versions: []

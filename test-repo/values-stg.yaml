@@ -2,11 +2,16 @@ app:
   image:
     tag: "latest"
     pullPolicy: "Always"
-    repository: aeternitybot/test-repo
+    repository: "aeternitybot/test-repo"
   ingress:
     enabled: "true"
     hosts:
       - host: "test-repo.stg.aepps.com"
         paths:
           - path: "/"
-  versions: []
+      - host: "pr-61-test-repo.stg.aepps.com"
+        paths:
+          - path: "/"
+            version: "pr-61"
+  versions:
+    - version: "pr-61"

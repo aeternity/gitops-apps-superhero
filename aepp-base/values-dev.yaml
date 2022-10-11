@@ -4,6 +4,6 @@ app:
   ingress:
     enabled: true
     hosts:
-      - host: "base.dev.service.aepps.com" # has to be changed/disscused
+      - host: "base.dev.superk8s.de" # has to be changed/disscused
         paths:
           - path: "/"

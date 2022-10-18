@@ -5,7 +5,7 @@ app:
     enabled: true
     annotations:
       traefik.ingress.kubernetes.io/router.entrypoints: websecure
-      cert-manager.io/cluster-issuer: letsencrypt-staging
+      cert-manager.io/cluster-issuer: letsencrypt
     hosts:
       - host: "base.dev.service.aepps.com" # has to be changed/disscused
         paths:

@@ -34,12 +34,14 @@ spec:
           {{- range .paths }}
           - path: {{ .path }}
             backend:
+              service:
               {{- if .version }}
-              serviceName: {{ $fullName }}-{{ include "app.escape" .version }}
+              name: {{ $fullName }}-{{ include "app.escape" .version }}
               {{- else }}
-              serviceName: {{ $fullName }}
+              name: {{ $fullName }}
               {{- end }}
-              servicePort: {{ $svcPort }}
+              port:
+                number: {{ $svcPort }}
           {{- end }}
     {{- end }}
 {{- end }}

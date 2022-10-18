@@ -2,7 +2,7 @@
 {{- $svcPort := .Values.service.port -}}
 {{- $fullName := include "app.fullname" $ }}
 ---
-apiVersion: networking.k8s.io/v1
+apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   name: {{ $fullName }}
@@ -33,19 +33,13 @@ spec:
         paths:
           {{- range .paths }}
           - path: {{ .path }}
-            pathType: Prefix
             backend:
-              service:
-                {{- if .version }}
-                name: {{ $fullName }}-{{ include "app.escape" .version }}
-                {{- else }}
-                name: {{ $fullName }}
-                {{- end }}
-                port:
-                  number: {{ $svcPort }}
-            {{- end }}
-      {{- end }}
+              {{- if .version }}
+              serviceName: {{ $fullName }}-{{ include "app.escape" .version }}
+              {{- else }}
+              serviceName: {{ $fullName }}
+              {{- end }}
+              servicePort: {{ $svcPort }}
+          {{- end }}
+    {{- end }}
 {{- end }}
-
-
-

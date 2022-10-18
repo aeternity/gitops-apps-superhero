@@ -36,13 +36,13 @@ spec:
             pathType: Prefix
             backend:
               service:
-              {{- if .version }}
-              name: {{ $fullName }}-{{ include "app.escape" .version }}
-              {{- else }}
-              name: {{ $fullName }}
-              {{- end }}
-              port:
-                number: {{ $svcPort }}
+                {{- if .version }}
+                name: {{ $fullName }}-{{ include "app.escape" .version }}
+                {{- else }}
+                name: {{ $fullName }}
+                {{- end }}
+                port:
+                  number: {{ $svcPort }}
           {{- end }}
     {{- end }}
 {{- end }}

@@ -3,10 +3,14 @@ app:
     tag: "master"
   ingress:
     enabled: true
+    annotations:
+      traefik.ingress.kubernetes.io/router.entrypoints: websecure
+      cert-manager.io/cluster-issuer: letsencrypt
     hosts:
       - host: "base.dev.service.aepps.com" # has to be changed/disscused
         paths:
           - path: "/"
     tls:
       - hosts:
-          - "base.dev.service.aepps.com"
+        - "base.dev.service.aepps.com"
+        secretName: aepp-base-cert

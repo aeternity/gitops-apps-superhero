@@ -6,6 +6,7 @@ app:
     annotations:
       traefik.ingress.kubernetes.io/router.entrypoints: websecure
       cert-manager.io/cluster-issuer: letsencrypt
+      solver: "route53"
     hosts:
       - host: "base.dev.service.aepps.com" # has to be changed/disscused
         paths:

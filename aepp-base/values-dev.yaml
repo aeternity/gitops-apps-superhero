@@ -4,8 +4,7 @@ app:
   ingress:
     enabled: true
     annotations:
-      traefik.ingress.kubernetes.io/router.tls: "true"
-      traefik.ingress.kubernetes.io/frontend-entry-points: "https"
+      traefik.ingress.kubernetes.io/router.entrypoints: websecure
       cert-manager.io/cluster-issuer: letsencrypt
     hosts:
       - host: "base.dev.service.aepps.com" # has to be changed/disscused

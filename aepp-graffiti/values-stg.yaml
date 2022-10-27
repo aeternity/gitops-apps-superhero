@@ -7,6 +7,6 @@ app:
   ingress:
     enabled: true
     hosts:
-      - host: "aepp-grafitti.stg.superk8s.de"
+      - host: "aepp-grafitti.stg.service.aepps.com"
         paths:
           - path: "/"

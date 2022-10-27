@@ -11,7 +11,7 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "dex-backend-testnet.stg.aepps.com"
+      - host: "dex-backend-testnet.stg.service.aepps.com"
         paths:
           - path: "/"
   init: 

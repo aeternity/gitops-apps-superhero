@@ -38,6 +38,6 @@ app:
   ingress:
     enabled: true
     hosts:
-      - host: "superhero-backend.stg.superk8s.de"
+      - host: "superhero-backend.stg.service.aepps.com"
         paths:
           - path: "/"

@@ -11,7 +11,7 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "dex-backend-mainnet.stg.superk8s.de"
+      - host: "dex-backend-mainnet.stg.service.aepps.com"
         paths:
           - path: "/"
   init: 

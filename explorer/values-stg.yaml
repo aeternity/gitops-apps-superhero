@@ -6,10 +6,10 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "explorer.stg.superk8s.de"
+      - host: "explorer.stg.service.aepps.com"
         paths:
           - path: "/"
-      - host: "master-explorer.stg.superk8s.de"
+      - host: "master-explorer.stg.service.aepps.com"
         paths:
           - path: "/"
             version: "master"

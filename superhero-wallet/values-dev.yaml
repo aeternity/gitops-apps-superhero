@@ -6,6 +6,6 @@ app:
   ingress:
     enabled: true
     hosts:
-      - host: "superhero-wallet.dev.superk8s.de"
+      - host: "superhero-wallet.dev.service.aepps.com"
         paths:
           - path: "/"

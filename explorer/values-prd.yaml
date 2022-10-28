@@ -6,10 +6,10 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "explorer.prd.superk8s.de"
+      - host: "explorer.prd.service.aepps.com"
         paths:
           - path: "/"
-      - host: "master-explorer.prd.superk8s.de"
+      - host: "master-explorer.prd.service.aepps.com"
         paths:
           - path: "/"
             version: "master"

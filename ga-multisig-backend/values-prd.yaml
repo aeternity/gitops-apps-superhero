@@ -10,7 +10,7 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "ga-multisig-backend.prd.superk8s.de"
+      - host: "ga-multisig-backend.prd.service.aepps.com"
         paths:
           - path: "/"
   init: 
@@ -26,5 +26,5 @@ app:
     "POSTGRES_DB": "ga-multisig-backend"
     "POSTGRES_SCHEMA": "ga-multisig-backend-app"
     "POSTGRES_PORT": "5432"
-    "POSTGRES_HOST": "pg-dex-backend.prd.superk8s.de"
+    "POSTGRES_HOST": "pg-dex-backend.prd.service.aepps.com"
     "POSTGRES_USERNAME": "ga-multisig-backend"

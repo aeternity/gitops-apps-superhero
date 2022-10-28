@@ -6,10 +6,10 @@ app:
   ingress:
     enabled: "true"
     hosts:
-      - host: "state-channel-demo.prd.superk8s.de"
+      - host: "state-channel-demo.prd.service.aepps.com"
         paths:
           - path: "/"
-      - host: "develop-state-channel-demo.prd.superk8s.de"
+      - host: "develop-state-channel-demo.prd.service.aepps.com"
         paths:
           - path: "/"
             version: "develop"

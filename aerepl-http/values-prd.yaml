@@ -7,9 +7,6 @@ app:
   ingress:
     enabled: true
     hosts:
-      - host: "repl.prd.superk8s.de"
+      - host: "repl.prd.service.aepps.com"
         paths:
           - path: "/"
-
-
-

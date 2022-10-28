@@ -13,7 +13,7 @@ app:
     "TOKEN_REGISTRY_ADDRESS": "ct_2n76BQCN3zNEjuEvHFNZtgyWPc5zizy47wNrUT3RHP2MrPKhbq"
     "ORACLE_CONTRACT_ADDRESS": "ct_7wqP18AHzyoqymwGaqQp8G2UpzBCggYiq7CZdJiB71VUsLpR4"
     "MIDDLEWARE_URL": "https://mainnet.aeternity.io/mdw"
-    "IPFS_URL": "http://ipfs.prd.superk8s.de:5001"
+    "IPFS_URL": "http://ipfs.prd.service.aepps.com:5001"
     "PUBLIC_KEY": "ak_HryHrgaVUSxezLQBfNENhptKeXk6tpg4kjWBk88nsU5RJvhNk"
     "AUTHENTICATION_USER": "admin"
     "NODE_ENV": "production"
@@ -23,7 +23,7 @@ app:
     "CONTRACT_V3_GETTER_ADDRESS": "ct_2NdZ6PX9tZHWFhgcoYjthYNFF15qxjDwFSsNXRPeajEWazxkTo"
     "POSTGRES_USER": "superhero"
     "POSTGRES_DB": "superhero_backend"
-    "POSTGRES_HOST": "pg-superhero-backend.prd.superk8s.de"
+    "POSTGRES_HOST": "pg-superhero-backend.prd.service.aepps.com"
     "POSTGRES_SSL": "false"
   image:
     tag: "psql"
@@ -38,6 +38,6 @@ app:
   ingress:
     enabled: true
     hosts:
-      - host: "superhero-backend.prd.superk8s.de"
+      - host: "superhero-backend.prd.service.aepps.com"
         paths:
           - path: "/"

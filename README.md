@@ -1,1 +1,1 @@
-# gitops-tools-apps
+# gitops-apps-superhero

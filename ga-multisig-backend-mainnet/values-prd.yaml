@@ -38,7 +38,7 @@ app:
       remotePrefix: /k8s/prd-0e9c
   ingress:
     hosts:
-      - host: "ga-multisig-backend-mainnet.prd.aepps.com"
+      - host: "ga-multisig-backend-mainnet.prd.service.aepps.com"
         paths:
           - path: "/"
   env:

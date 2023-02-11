@@ -43,6 +43,6 @@ app:
     "PG_DB": "ga-multisig-backend-mainnet"
     "PG_PORT": "5432"
     "PG_USER": "ga-multisig-backend"
-    "PG_HOST": "pg-dex-backend.prd.service.aepps.com"
+    "PG_HOST": "pg-superhero-backend.prd.service.aepps.com"
     "MIDDLEWARE_URL": https://mainnet.aeternity.io/mdw
     "NODE_URL": https://mainnet.aeternity.io

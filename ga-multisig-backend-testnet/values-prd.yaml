@@ -1,0 +1,48 @@
+
+app:
+  encValues:
+    PG_PASSWORD: "AgB9FGTqOStYO/MoKapX8XnpfdDBjxLl6o/LMVkMP9b2toxyYrjLgY3JA+XFu4F0FieOER370p7y5cF34Iuzs5jdceufZNrDgSTQ135efQUXISDa6HAjGgVBLmhkqpXnlNQ4s6YZvidJ3b06KiqHx2aQGTzCxIO9D6xjs6JDc9C3laNGPfR7G6t0/IC7xVMXxeM7ssmbVDGSE6SfMvL/zvqRai2SiCiFPqB+KyLpAlY8ftdszumGA38oz+YOw32uhuEfxUTST9j/h4MD9lJiP4IC2risvbYvH7Mrpxk4Uo0Dkf7hMFQOxs9ccd7VWZR4h+KDV+v+EOe1O92OWJDlF4c6i+nZsobC1h9cdi++GsD2Fv283kDDWnCpGLnZGD64UUFqNO0VcdoW+M/dQ2TNcAAJK/R1Qeb2CNcuQyWORAus7cEVFwui1uCWKiPD91EbkA0tnpGXxcr1XHY4EnmB4UFUbhusuFmE+DXCMEjW27mWSoMtkaZPml/V3+2K4qI6uecxcoDyRPGrYgDqLP2YZicKjeKhMCuZ0okeP5D+zQJgTcPblNT34DopcipxZ5/bCXJqKHXKZbZ6cj6bOPil3JBqJ9uikPmrrMrizn3kGRL/Me25hA1VP/1D31vPIfzjNRGmvDF9/RETKY2MWdVQY9soJS+/p+ApWr1T2JdME980l0fI6JGwUdWQGtRvPM8zHqn8juvKHEIb8P5Q"
+  image:
+    repository: aeternitybot/ga-multisig-backend
+    tag: v1.1.0
+    pullPolicy: "Always"
+  resources:
+    limits:
+      memory: 150Mi
+    requests:
+      cpu: 300m
+      memory: 150Mi
+  service:
+    port: 3000
+  serviceMonitor:
+    enabled: false
+  probes:
+    liveness:
+      config:
+        httpGet:
+          path: /health
+        initialDelaySeconds: 120
+        periodSeconds: 120
+        successThreshold: 1
+        timeoutSeconds: 60
+    readiness:
+      config:
+        httpGet:
+          path: /health
+        initialDelaySeconds: 120
+        periodSeconds: 120
+        successThreshold: 1
+        timeoutSeconds: 60
+  ingress:
+    enabled: true
+    hosts:
+      - host: "ga-multisig-backend-testnet.prd.service.aepps.com"
+        paths:
+          - path: "/"
+  env:
+    "PG_DB": "ga-multisig-backend-testnet"
+    "PG_PORT": "5432"
+    "PG_USER": "ga-multisig-backend"
+    "PG_HOST": "pg-superhero-backend.prd.service.aepps.com"
+    "MIDDLEWARE_URL": https://testnet.aeternity.io/mdw
+    "NODE_URL": https://testnet.aeternity.io

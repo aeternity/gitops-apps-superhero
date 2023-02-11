@@ -33,9 +33,6 @@ app:
         periodSeconds: 120
         successThreshold: 1
         timeoutSeconds: 60
-  secrets:
-    external:
-      remotePrefix: /k8s/prd-0e9c
   ingress:
     hosts:
       - host: "ga-multisig-backend-mainnet.prd.service.aepps.com"

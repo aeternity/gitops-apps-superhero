@@ -1,0 +1,49 @@
+
+app:
+  image:
+    repository: aeternitybot/graffiti-server
+    tag: "latest"
+    pullPolicy: "Always"
+  encValues:
+    S3_KEY: ""
+    S3_SECRET: ""
+  service:
+    port: 3000
+  probes:
+    liveness:
+      enabled: false
+      config:
+        httpGet:
+          path: /health
+        initialDelaySeconds: 120
+        periodSeconds: 120
+        successThreshold: 1
+        timeoutSeconds: 60
+    readiness:
+      enabled: false
+      config:
+        httpGet:
+          path: /health
+        initialDelaySeconds: 120
+        periodSeconds: 120
+        successThreshold: 1
+        timeoutSeconds: 60
+  persistence:
+    enabled: true
+    accessMode: ReadWriteOnce
+    storageClass: gp2
+    size: 50Gi
+    mountPath: /app/data/backup
+  ingress:
+    enabled: true
+    hosts:
+      - host: "graffiti-server-mainnet.prd.service.aepps.com"
+        paths:
+          - path: "/"
+  env:
+    "IPFS_URL": "http://ipfs.prd.service.aepps.com:5001"
+    "S3_BUCKET": "aeternity-superhero-graffiti-prd"
+    "SYNC_STORAGE": "true"
+    "S3_REGION": "eu-central-1"
+    "NODE_URL": "https://mainnet.aeternity.io"
+    "CONTRACT_ADDRESS": "ct_ftU4u1wEsiWd6YN4AAekEArJmLds4K8AB2k4UXKxn32Yrf5n5"

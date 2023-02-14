@@ -1,0 +1,11 @@
+app:
+  image:
+    repository: "aeternitybot/ga-multisig-ui"
+    tag: v1.1.0
+    pullPolicy: "Always"
+  ingress:
+    enabled: true
+    hosts:
+      - host: "ga-multisig-ui.stg.service.aepps.com"
+        paths:
+          - path: "/"

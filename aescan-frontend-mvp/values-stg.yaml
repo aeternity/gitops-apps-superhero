@@ -1,0 +1,13 @@
+app:
+  image:
+    tag: 0.3.1
+    repository: "aeternitybot/aescan-frontend-mvp"
+    pullPolicy: "Always"
+  ingress:
+    enabled: true
+    annotations:
+      traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    hosts:
+      - host: "aescan-frontend-mvp.stg.service.aepps.com"
+        paths:
+          - path: "/"

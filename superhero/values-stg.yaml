@@ -1,8 +1,11 @@
 app:
   nameOverride: superhero
+  imagePullSecrets:
+    - name: dockerhub-secret
   image:
-    repository: "superhero-com/superhero"
-    tag: "latest"
+    repository: "superherodotcom/sup6cga"
+    tag: "develop"
+    pullPolicy: "Always"
   ingress:
     enabled: "true"
     hosts:

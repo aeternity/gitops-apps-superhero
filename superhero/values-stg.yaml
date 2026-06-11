@@ -1,20 +1,26 @@
 app:
-  nameOverride: superhero
+  nameOverride: "superhero"
   imagePullSecrets:
-    - name: dockerhub-secret
+    - name: "dockerhub-secret"
   image:
     repository: "superherodotcom/sup6cga"
     tag: "develop"
     pullPolicy: "Always"
   resources:
     limits:
-      memory: 256Mi
+      memory: "256Mi"
     requests:
-      cpu: 50m
-      memory: 128Mi
+      cpu: "50m"
+      memory: "128Mi"
   ingress:
     enabled: "true"
     hosts:
       - host: "superhero.stg.service.aepps.com"
         paths:
           - path: "/"
+      - host: "pr-601-superhero.stg.service.aepps.com"
+        paths:
+          - path: "/"
+            version: "pr-601"
+  versions:
+    - version: "pr-601"

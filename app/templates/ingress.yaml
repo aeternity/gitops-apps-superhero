@@ -8,6 +8,9 @@ metadata:
   name: {{ $fullName }}
   labels:
     {{- include "app.labels" $ | nindent 4 }}
+  {{- with $.Values.ingress.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
   annotations:
     {{- if $.Values.ingress.stripPrefix }}
     traefik.ingress.kubernetes.io/router.middlewares: {{ $.Release.Namespace }}-{{ $fullName }}@kubernetescrd
@@ -32,20 +35,17 @@ spec:
       http:
         paths:
           {{- range .paths }}
-          - path: {{ .path }}
-            pathType: Prefix
+          - pathType: Prefix
+            path: {{ .path }}
             backend:
               service:
                 {{- if .version }}
                 name: {{ $fullName }}-{{ include "app.escape" .version }}
                 {{- else }}
                 name: {{ $fullName }}
-                {{- end }}
+              {{- end }}
                 port:
                   number: {{ $svcPort }}
-            {{- end }}
-      {{- end }}
+          {{- end }}
+    {{- end }}
 {{- end }}
-
-
-

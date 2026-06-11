@@ -1,9 +1,0 @@
-app:
-  image:
-    tag: "master"
-  ingress:
-    enabled: true
-    hosts:
-      - host: "base.stg.service.aepps.com"
-        paths:
-          - path: "/"

@@ -22,5 +22,10 @@ app:
         paths:
           - path: "/"
             version: "pr-601"
+      - host: "pr-601-superhero.stg.service.aepps.com"
+        paths:
+          - path: "/"
+            version: "pr-601"
   versions:
+    - version: "pr-601"
     - version: "pr-601"

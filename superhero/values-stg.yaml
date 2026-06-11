@@ -6,6 +6,12 @@ app:
     repository: "superherodotcom/sup6cga"
     tag: "develop"
     pullPolicy: "Always"
+  resources:
+    limits:
+      memory: 256Mi
+    requests:
+      cpu: 50m
+      memory: 128Mi
   ingress:
     enabled: "true"
     hosts:

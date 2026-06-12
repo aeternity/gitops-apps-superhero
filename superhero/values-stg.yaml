@@ -18,4 +18,9 @@ app:
       - host: "superhero.stg.service.aepps.com"
         paths:
           - path: "/"
-  versions: []
+      - host: "pr-463-superhero.stg.service.aepps.com"
+        paths:
+          - path: "/"
+            version: "pr-463"
+  versions:
+    - version: "pr-463"

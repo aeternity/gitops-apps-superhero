@@ -18,14 +18,14 @@ app:
       - host: "superhero.stg.service.aepps.com"
         paths:
           - path: "/"
-      - host: "pr-537-superhero.stg.service.aepps.com"
-        paths:
-          - path: "/"
-            version: "pr-537"
       - host: "pr-603-superhero.stg.service.aepps.com"
         paths:
           - path: "/"
             version: "pr-603"
+      - host: "pr-537-superhero.stg.service.aepps.com"
+        paths:
+          - path: "/"
+            version: "pr-537"
   versions:
-    - version: "pr-537"
     - version: "pr-603"
+    - version: "pr-537"

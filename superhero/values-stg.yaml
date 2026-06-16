@@ -29,3 +29,4 @@ app:
   versions:
     - version: "pr-603"
     - version: "pr-537"
+      gitSha: "7e6f51e843a286e3242ea0dcb0fec298b6826e59"

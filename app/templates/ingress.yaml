@@ -40,7 +40,7 @@ spec:
             backend:
               service:
                 {{- if .version }}
-                name: {{ $fullName }}-{{ include "app.escape" .version }}
+                name: {{ include "app.versionedFullname" (merge (dict "version" .version) $) }}
                 {{- else }}
                 name: {{ $fullName }}
               {{- end }}

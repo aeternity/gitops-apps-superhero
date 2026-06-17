@@ -1,6 +1,13 @@
 {{ $versions := .Values.versions }}
 {{ $imageTag := .Values.image.tag }}
-{{ $allVersions := append $versions (merge (dict "version" (default .Values.image.tag .Chart.AppVersion )) $) | compact | uniq }}
+{{- $dedup := dict "seen" (list) "result" (list) -}}
+{{- range (append $versions (merge (dict "version" (default .Values.image.tag .Chart.AppVersion)) $)) -}}
+  {{- if and .version (not (has .version (get $dedup "seen"))) -}}
+    {{- $_ := set $dedup "result" (append (get $dedup "result") .) -}}
+    {{- $_ := set $dedup "seen" (append (get $dedup "seen") .version) -}}
+  {{- end -}}
+{{- end -}}
+{{- $allVersions := get $dedup "result" -}}
 {{- range $key, $val := $allVersions }}
 {{- if $val.version }}
 {{- $segments := splitList "." $val.version }}

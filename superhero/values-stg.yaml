@@ -36,4 +36,4 @@ app:
     - version: "pr-611"
       gitSha: "9fa091cdf9da221534ed802134711d1215e5ea20"
     - version: "develop"
-      gitSha: "3e5401dc5be421f3d4cfcc5817e55d37ef5f196e"
+      gitSha: "b50cec343deb9e16d37ee097fd86b0e3ae6540c3"

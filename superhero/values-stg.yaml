@@ -30,4 +30,4 @@ app:
     - version: "pr-537"
       gitSha: "525cf8ce4fce315bfc2a8179c6495673fe03e4db"
     - version: "develop"
-      gitSha: "b50cec343deb9e16d37ee097fd86b0e3ae6540c3"
+      gitSha: "13289896d4c2cfc6cdcc96b4846abc54fc004f54"

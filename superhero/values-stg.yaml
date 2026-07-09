@@ -66,4 +66,4 @@ app:
     - version: "pr-537"
       gitSha: "940d72d98bbb6469e5b3b603a408fc2449080625"
     - version: "pr-615"
-      gitSha: "6eacff4705f90cdc20f2a61850b6e1f7bb974fae"
+      gitSha: "64d3ae788525ee804a45dea07660526f69a6fabf"

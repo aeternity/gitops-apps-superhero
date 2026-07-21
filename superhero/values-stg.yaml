@@ -90,4 +90,4 @@ app:
     - version: "pr-616"
       gitSha: "cb5b509223e7bcd47607a9ca5e4d730ea13d7e17"
     - version: "pr-627"
-      gitSha: "b4cb6cc1428ba49719809e497cc561bd7c388301"
+      gitSha: "ed2773dfc3b0c794375ba180b4d10617849c5f5d"

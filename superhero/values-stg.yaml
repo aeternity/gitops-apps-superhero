@@ -38,10 +38,6 @@ app:
         paths:
           - path: "/"
             version: "pr-630"
-      - host: "pr-616-superhero.stg.service.aepps.com"
-        paths:
-          - path: "/"
-            version: "pr-616"
       - host: "pr-632-superhero.stg.service.aepps.com"
         paths:
           - path: "/"
@@ -58,6 +54,10 @@ app:
         paths:
           - path: "/"
             version: "pr-633"
+      - host: "pr-616-superhero.stg.service.aepps.com"
+        paths:
+          - path: "/"
+            version: "pr-616"
   versions:
     - version: "pr-614"
       gitSha: "3d4359a427c8e19426db8c56b3b1326627099264"
@@ -69,8 +69,6 @@ app:
       gitSha: "ff92ac63a569ef041fb9c2637eec19dc3e8c9aff"
     - version: "pr-630"
       gitSha: "07b8ef6e1651921f9c45cab941a8886e86ca1e72"
-    - version: "pr-616"
-      gitSha: "cb5b509223e7bcd47607a9ca5e4d730ea13d7e17"
     - version: "pr-632"
       gitSha: "5973793ca3406a63dbe6a05e5724ad6bec9d2716"
     - version: "pr-619"
@@ -79,3 +77,5 @@ app:
       gitSha: "86e28b79beb49e1112744fa9ec066f3614ee5674"
     - version: "pr-633"
       gitSha: "86e28b79beb49e1112744fa9ec066f3614ee5674"
+    - version: "pr-616"
+      gitSha: "0742de104091264fe1249d456f9630eb03765e54"

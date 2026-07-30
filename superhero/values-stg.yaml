@@ -96,4 +96,4 @@ app:
     - version: "pr-638"
       gitSha: "55dd327d2ee18c97a2f811adcc85fe03661d8c2d"
     - version: "pr-639"
-      gitSha: "aa75d5daf3e53a43b1dd2c58c260cfac320f777f"
+      gitSha: "ad7923f9405567946c23c32abc49f203073b0566"

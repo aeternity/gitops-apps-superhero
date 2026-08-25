@@ -70,6 +70,10 @@ app:
         paths:
           - path: "/"
             version: "pr-642"
+      - host: "pr-661-superhero.stg.service.aepps.com"
+        paths:
+          - path: "/"
+            version: "pr-661"
   versions:
     - version: "pr-614"
       gitSha: "3d4359a427c8e19426db8c56b3b1326627099264"
@@ -97,3 +101,5 @@ app:
       gitSha: "14d4e2a2b2f23e6c3698ca00e51d954e9971bc28"
     - version: "pr-642"
       gitSha: "14d4e2a2b2f23e6c3698ca00e51d954e9971bc28"
+    - version: "pr-661"
+      gitSha: "660b804636c23b1c4f27f82fc79f1f2bcbabd49b"

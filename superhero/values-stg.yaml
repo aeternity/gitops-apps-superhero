@@ -102,4 +102,4 @@ app:
     - version: "develop"
       gitSha: "020fa00d5013f349b40eb30cce0cea62c29bd66b"
     - version: "pr-659"
-      gitSha: "90851401a0dbdc1b64a222fe3dc9e18ffe1fb1ab"
+      gitSha: "d799eb959d155f2a85ee6f610d30a3f051086e46"

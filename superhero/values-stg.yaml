@@ -86,10 +86,6 @@ app:
         paths:
           - path: "/"
             version: "pr-712"
-      - host: "pr-713-superhero.stg.service.aepps.com"
-        paths:
-          - path: "/"
-            version: "pr-713"
       - host: "pr-714-superhero.stg.service.aepps.com"
         paths:
           - path: "/"
@@ -129,7 +125,5 @@ app:
       gitSha: "65c1ada4dfba27587be2571f791c106cfd67820d"
     - version: "pr-712"
       gitSha: "65c1ada4dfba27587be2571f791c106cfd67820d"
-    - version: "pr-713"
-      gitSha: "27674dbf7e655d8202a92e2d051bbb9c0504fbac"
     - version: "pr-714"
       gitSha: "3a69fe17badd52a7716a99286aef4409da7f430f"

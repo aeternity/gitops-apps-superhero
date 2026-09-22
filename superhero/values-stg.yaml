@@ -78,10 +78,6 @@ app:
         paths:
           - path: "/"
             version: "develop"
-      - host: "pr-708-superhero.stg.service.aepps.com"
-        paths:
-          - path: "/"
-            version: "pr-708"
   versions:
     - version: "pr-614"
       gitSha: "3d4359a427c8e19426db8c56b3b1326627099264"
@@ -113,5 +109,3 @@ app:
       gitSha: "7e4a1ad897b2c3fd421dde4b44cd36e4147a24cf"
     - version: "develop"
       gitSha: "384ed7b6c77dd8737779c509ae2b08ec97440871"
-    - version: "pr-708"
-      gitSha: "7352ecce7c1b0a820fb0f4b92824f43a3d180879"

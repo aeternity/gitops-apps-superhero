@@ -132,4 +132,4 @@ app:
     - version: "pr-747"
       gitSha: "782a0d860476ce326d3a101a5789f8b523e61163"
     - version: "pr-729"
-      gitSha: "0423f96a29e4bf4e7f1f97612576af673d308955"
+      gitSha: "60c1d85e1aba9487cf652dda3877918902028455"

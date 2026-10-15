@@ -54,4 +54,4 @@ app:
     - version: "pr-787"
       gitSha: "0e550e31f5ed13d5af67fe53e742c6f0995f4431"
     - version: "develop"
-      gitSha: "bf21e2b73481874053309653e2a7c3bc8c05b2f4"
+      gitSha: "40b8627fd8c351f799924462772d56e620134d1d"

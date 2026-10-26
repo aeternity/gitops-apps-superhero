@@ -144,4 +144,4 @@ app:
     - version: "pr-800"
       gitSha: "3ae730f7cbc6c3a5ad28d78b6614cdcfb8d69333"
     - version: "pr-805"
-      gitSha: "52b7d3bc0bad7a1f7cda13d3ef42966655cb39e2"
+      gitSha: "d255bc25abe9be42d2ac9a49236a4ecf4e156d65"

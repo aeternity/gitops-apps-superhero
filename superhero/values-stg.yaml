@@ -120,4 +120,4 @@ app:
     - version: "develop"
       gitSha: "a057ae93ae8638bdc20c49a750bb592ebe3edf0e"
     - version: "pr-808"
-      gitSha: "0534d7b076babcf94ab224fe9a37967767960f3b"
+      gitSha: "4f296ef95a0ca4525c39b561e7006ded57ebfd42"

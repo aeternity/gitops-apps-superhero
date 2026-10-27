@@ -108,4 +108,4 @@ app:
     - version: "pr-807"
       gitSha: "3cf48096deeeef3b94e3bb7eb5e9e15fc0e25b0a"
     - version: "develop"
-      gitSha: "1a86d7ca4c870af674d2d2f26e91acb9896fabb9"
+      gitSha: "848e1ae9b23b7e76f03b6e06fff0203a2dbaed3c"

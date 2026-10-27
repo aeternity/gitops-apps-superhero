@@ -66,10 +66,6 @@ app:
         paths:
           - path: "/"
             version: "pr-805"
-      - host: "pr-809-superhero.stg.service.aepps.com"
-        paths:
-          - path: "/"
-            version: "pr-809"
       - host: "develop-superhero.stg.service.aepps.com"
         paths:
           - path: "/"
@@ -103,8 +99,6 @@ app:
       gitSha: "3ae730f7cbc6c3a5ad28d78b6614cdcfb8d69333"
     - version: "pr-805"
       gitSha: "d255bc25abe9be42d2ac9a49236a4ecf4e156d65"
-    - version: "pr-809"
-      gitSha: "e25245b9d533be910c768e8afe15cf3bc53189da"
     - version: "develop"
       gitSha: "275c3546a64b4210c275cd3c6087e30844d540a3"
     - version: "pr-801"

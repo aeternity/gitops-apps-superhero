@@ -84,4 +84,4 @@ app:
     - version: "pr-805"
       gitSha: "d255bc25abe9be42d2ac9a49236a4ecf4e156d65"
     - version: "develop"
-      gitSha: "ed7409f454b3be9f0ce97197323fce212e9ee4e7"
+      gitSha: "a48b517da3465dd1458ad2fa675c52a1a90cd6e4"

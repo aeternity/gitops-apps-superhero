@@ -90,4 +90,4 @@ app:
     - version: "pr-835"
       gitSha: "349ba7e29986ff413d0f5dd240210a5af90c6cbe"
     - version: "pr-836"
-      gitSha: "77918baa76179c98c3dacac7b9d694af42d700b5"
+      gitSha: "e36f3420ce4cc11991725abe55e38d62c587cedc"
